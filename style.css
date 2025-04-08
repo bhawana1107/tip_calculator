@@ -1,0 +1,68 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: math;
+    margin-top: 50px;
+}
+
+.container {
+    width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 600;
+
+}
+
+.para {
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease;
+    border-radius: 7px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+label {
+    font-size: 18px;
+}
+
+#total {
+    font-size: 20px;
+}
