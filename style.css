@@ -66,3 +66,18 @@ label {
 #total {
     font-size: 20px;
 }
+
+#reset {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: background-color 0.2s ease;
+    border-radius: 7px;
+    float: right;
+    display: none;
+}
